@@ -413,6 +413,8 @@ html {
     color: #ffffff;
     text-shadow: 1px 1px 5px #7B542F;
     text-align: center;
+    margin-bottom: 5px;
+    
 }
 .absen .bhap h2{
     font-family: 'Cinzel';
@@ -421,7 +423,7 @@ html {
     color: #ffea5f;
     text-shadow: 1px 1px 5px #603300;
     text-align: center;
-    margin-top: .2rem;
+    margin-top: 0rem;
 }
 .absen .bhap .cta{
     margin-top: 2rem;
@@ -513,7 +515,7 @@ footer .links a {
     }
     
     .hero{
-        background-image: url("purahp.png");
+        background-image: url("images\purahp.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -550,6 +552,13 @@ footer .links a {
     .about .box .row img{
         width: 300px;
         object-position: center;
+    }
+
+    .about .bunga1 img{
+        z-index: 3;
+    }
+    .about .bunga2 img{
+        z-index: 2;
     }
 
     .place{
